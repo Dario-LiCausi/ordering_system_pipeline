@@ -1,0 +1,5 @@
+order_id,customer_name,customer_address,customer_phone,courier_id,status,items
+1,Hammet Brown,55 Main Road Hill Walley,07456840953,6,PREPARING,"9, 11, 23"
+2,Wane Watson,87 Main Road Oasis,0745673845,8,PREPARING,"20, 11, 23"
+3,Mark Renton,66 Columbian Road London,0754382943,8,PREPARING,
+4,John Malcovic,Main Road,075443,3,PREPARING,

@@ -1,0 +1,34 @@
+ {
+    "Pastry": [
+        "Croissant",
+        "Pan au Chocolat",
+        "Danish",
+        "Brownie",
+        "Carrot Cake",
+        "Pastel de Nata",
+        "Almond Croissant"
+    ],
+    "Sandwich": [
+        "Tuna Mayo",
+        "Coronation Chicken",
+        "Ham And Cheese",
+        "BLT"
+    ],
+    "Coffee": [
+        "Americano",
+        "Flat White",
+        "Espresso",
+        "Cappuccino",
+        "Mocha",
+        "Latte",
+        "Cortado"
+    ],
+    "Tea": [
+        "Earl Grey",
+        "English Breakfast",
+        "Green Tea",
+        "Chai Tea",
+        "Chai Latte",
+        "Matcha Latte"
+    ]
+}

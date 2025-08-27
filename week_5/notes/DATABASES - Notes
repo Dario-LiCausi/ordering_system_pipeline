@@ -1,0 +1,41 @@
+DATABASES - Notes
+
+1. Relational Database Concepts
+	•	Tables: Similar to CSV files, but structured with defined data types.
+	•	Rows & Columns: Rows store records, and columns define attributes.
+	•	Primary Keys: Unique identifiers for each record in a table.
+	•	Foreign Keys: References to primary keys in other tables to maintain relationships.
+
+2. PostgreSQL Basics
+	•	Schemas: Logical groups of tables.
+	•	Data Types: Integers (INTEGER), text (TEXT), dates (TIMESTAMP), booleans (BOOLEAN), etc.
+	•	Constraints: Rules to maintain data integrity (NOT NULL, UNIQUE, CHECK, DEFAULT).
+	•	Indexes: Speed up queries on frequently searched columns.
+
+3. SQL Commands
+	•	Data Definition Language (DDL):
+	•	CREATE TABLE table_name (...)
+	•	ALTER TABLE table_name ADD COLUMN column_name datatype
+	•	DROP TABLE table_name
+	•	Data Manipulation Language (DML):
+	•	INSERT INTO table_name (...) VALUES (...)
+	•	UPDATE table_name SET column = value WHERE condition
+	•	DELETE FROM table_name WHERE condition
+	•	Data Query Language (DQL):
+	•	SELECT * FROM table_name
+	•	SELECT column1, column2 FROM table_name WHERE condition
+
+4. Relationships & Joins
+	•	One-to-One: Each record in one table relates to a single record in another.
+	•	One-to-Many: A single record in one table relates to multiple records in another (e.g., a customer has many orders).
+	•	Many-to-Many: Requires a junction table (e.g., products in multiple orders).
+	•	Joins:
+	•	INNER JOIN: Returns only matching records.
+	•	LEFT JOIN: Returns all records from the left table and matching ones from the right.
+	•	RIGHT JOIN: Returns all records from the right table and matching ones from the left.
+
+5. PostgreSQL Specific Features
+	•	Serial Type (SERIAL): Auto-increments for primary keys.
+	•	JSON/JSONB: Stores semi-structured data.
+	•	CTE (Common Table Expressions): Temporary result sets (WITH cte_name AS (...)).
+	•	Transactions (BEGIN, COMMIT, ROLLBACK): Ensures data consistency.

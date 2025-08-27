@@ -1,0 +1,4 @@
+order_id,customer_name,cutomer_address,customer_phone,courier,status
+1,Bjorn Werther,23 Verbena Grove London,0754029384,Ayman,2
+order #2,Kim Gordon,91 Saddle Av London,0743281928,Liselotte,Pending
+order #3,Jimmy,45 Main Road,04357694245,Janes,Pending

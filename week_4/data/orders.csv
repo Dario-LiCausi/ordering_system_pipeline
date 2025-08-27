@@ -1,0 +1,6 @@
+order_id,customer_name,customer_address,customer_phone,courier_id,status,shopping_list
+1,Ellen Ripley,LV-426 Colony,07876543210,1,PENDING,"[3, 7, 12]"
+2,Roy Batty,3rd Sector Off-World,07911223344,2,PREPARING,"[2, 5, 9]"
+4,Paul Atreides,House Atreides Arrakis,07112233445,4,DELIVERED,"[6, 11, 13]"
+5,Sarah Connor,1984 Los Angeles,07334455667,5,PENDING,"[1, 3, 7, 14]"
+5,Marti Mcfly,66 Love Alley Hill Valley,0755339485,5,Pending,"23,14,16"
